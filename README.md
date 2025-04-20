@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# ProVida Medicina
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **ProVida Medicina** é um site de serviços médicos que oferece consultas online, exames de rotina e aconselhamento nutricional. A missão é oferecer serviços de saúde de alta qualidade com uma equipe de especialistas dedicados ao bem-estar de seus pacientes.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- **Frontend**: React, React Bootstrap
+- **Estado**: React `useState` para gerenciamento de estado.
+- **Estilização**: CSS com classes do Bootstrap para um design responsivo.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Cabeçalho**: Exibe a logo e um botão de inscrição.
+2. **Carrossel de Serviços**: Exibe os serviços oferecidos com imagens e descrições.
+3. **Equipe**: Apresenta os membros da equipe com fotos e cargos.
+4. **Formulário de Inscrição**: Permite que os usuários se inscrevam para receber mais informações.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Executar Localmente
 
-### `npm test`
+Para rodar o projeto localmente, siga as instruções abaixo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clonar o Repositório
 
-### `npm run build`
+Abra o terminal e execute:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/SEU-USUÁRIO/PROVIDA-MEDICINA.git
+cd PROVIDA-MEDICINA
+2. Instalar Dependências
+Certifique-se de ter o Node.js instalado. Caso não tenha, instale Node.js.
+Para instalar as dependências do projeto, execute:
+npm install
+3. Rodar o Projeto
+Após instalar as dependências, inicie o servidor local com:
+npm start
